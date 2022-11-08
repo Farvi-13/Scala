@@ -1,0 +1,164 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users//AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 58433, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.3 (Amazon.com Inc. Java 11.0.17)
+[debug]       Load.loadUnit: plugins took 14.8276ms
+[debug]       Load.loadUnit: defsScala took 0.0068ms
+[debug] [Loading] Scanning directory C:\Users\Виталя\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Виталя\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6173 ms
+[debug]           Load.resolveProject(global-plugins) took 0.7878ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Виталя\.sbt\1.0\plugins, plugins: List(<none>))) took 1.6873ms
+[debug] [Loading] Done in C:\Users\Виталя\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 2.6186ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0073ms
+[debug]     Load.loadUnit(file:/C:/Users/Виталя/.sbt/1.0/plugins/, ...) took 18.2793ms
+[debug]   Load.apply: load took 19.2476ms
+[debug]   Load.apply: resolveProjects took 0.0674ms
+[debug]   Load.apply: finalTransforms took 4.8973ms
+[debug]   Load.apply: config.delegates took 0.1939ms
+[debug]   Load.apply: Def.make(settings)... took 29.6445ms
+[debug]   Load.apply: structureIndex took 10.3993ms
+[debug]   Load.apply: mkStreams took 0.0043ms
+[info] loading global plugins from C:\Users\Виталя\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 155.0059ms
+[debug]           Load.loadUnit: plugins took 14.2738ms
+[debug]           Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory D:\УНИВЕР\5 семестр\Scala\HelloWorld\project
+[debug]             Load.loadUnit: mkEval took 0.136ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\УНИВЕР\5 семестр\Scala\HelloWorld\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.5819 ms
+[info] loading settings for project helloworld-build from idea.sbt ...
+[debug]               Load.resolveProject(helloworld-build) took 4.2285ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id helloworld-build, base: D:\УНИВЕР\5 семестр\Scala\HelloWorld\project, plugins: List(<none>))) took 5.061ms
+[debug] [Loading] Done in D:\УНИВЕР\5 семестр\Scala\HelloWorld\project, returning: (helloworld-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 17.492ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.9396ms
+[debug]         Load.loadUnit(file:/D:/УНИВЕР/5%20семестр/Scala/HelloWorld/project/, ...) took 33.0743ms
+[debug]       Load.apply: load took 33.6984ms
+[debug]       Load.apply: resolveProjects took 0.068ms
+[debug]       Load.apply: finalTransforms took 6.2411ms
+[debug]       Load.apply: config.delegates took 0.1603ms
+[debug]       Load.apply: Def.make(settings)... took 46.679ms
+[debug]       Load.apply: structureIndex took 9.0381ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from D:\УНИВЕР\5 семестр\Scala\HelloWorld\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 176.5748ms
+[debug]     Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory D:\УНИВЕР\5 семестр\Scala\HelloWorld
+[debug]       Load.loadUnit: mkEval took 0.1806ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 0.8397 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 30.2853ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\УНИВЕР\5 семестр\Scala\HelloWorld, plugins: List(<none>))) took 31.4348ms
+[debug] [Loading] Done in D:\УНИВЕР\5 семестр\Scala\HelloWorld, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 58.1422ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.642ms
+[debug]   Load.loadUnit(file:/D:/УНИВЕР/5%20семестр/Scala/HelloWorld/, ...) took 235.6232ms
+[debug] Load.apply: load took 236.3101ms
+[debug] Load.apply: resolveProjects took 0.0541ms
+[debug] Load.apply: finalTransforms took 11.8966ms
+[debug] Load.apply: config.delegates took 0.1536ms
+[debug] Load.apply: Def.make(settings)... took 33.5431ms
+[debug] Load.apply: structureIndex took 11.6874ms
+[debug] Load.apply: mkStreams took 0.0039ms
+[info] set current project to HelloWorld (in build file:/D:/УНИВЕР/5%20семестр/Scala/HelloWorld/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to HelloWorld (in build file:/D:/УНИВЕР/5%20семестр/Scala/HelloWorld/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users//AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[info] Writing structure to C:\Users\AppData\Local\Temp\sbt-structure.xml...
+[error] java.io.FileNotFoundException: C:\Users\AppData\Local\Temp\sbt-structure.xml (Системе не удается найти указанный путь)
+[error] 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[error] 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+[error] 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+[error] 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+[error] 	at org.jetbrains.sbt.extractors.UtilityTasks$.writeToFile(UtilityTasks.scala:190)
+[error] 	at org.jetbrains.sbt.pluginOnlyTasks$.$anonfun$dumpStructureTo$3(StructurePlugin.scala:52)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+[error] (Global / dumpStructureTo) java.io.FileNotFoundException: C:\Users\AppData\Local\Temp\sbt-structure.xml (Системе не удается найти указанный путь)
+[error] Total time: 20 s, completed 7 нояб. 2022 г., 14:53:34
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
